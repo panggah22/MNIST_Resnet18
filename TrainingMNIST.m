@@ -23,3 +23,4 @@ net = trainNetwork(XTrain, YTrainCat, LG, options);
 
 %% Saving the result into Matlab file
 save('NET_MNIST_RESNET18_sgdm.mat', 'net');
+AfterTraining;
