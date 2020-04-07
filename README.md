@@ -4,7 +4,7 @@ This program utilizes the ResNet-18 deep learning structure to train MNIST datas
 To begin training the data, open TrainingMNIST.m, and run the program. 
 It will also give you the plot for confusion matrix and some randomized classification example.
 You can also modify the epoch and iteration inside the file.
-With the default parameter, it takes about 16 minutes to train the data (single GPU: RTX 2060 Super).
+With the default parameter, it takes about 12 minutes to train the data (single GPU: RTX 2060 Super).
 
 So, if you do not want to train the data, you can directly use the AfterTraining.m and run, to obtain the confusion matrix and samples.
 
