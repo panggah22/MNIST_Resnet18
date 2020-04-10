@@ -12,7 +12,7 @@ plotconfusion(YTestCat,YPredicted);
 
 %% Read input images
 rng shuffle
-r = randi([1 1000],1,5);
+r = randi([1 10000],1,5);
 I = cell(size(r,2),1);
 label = categorical();
 
@@ -22,6 +22,7 @@ for i = 1:size(r,2)
     label(i) = classify(net,I{i});
     subplot(1,size(r,2),i);
     imshow(I{i});
+    title('label : ' + string(label(i)))
 end
 
 label
